@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: wheat;
+    height: 36px;
+    padding: 17px;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.middle {
+    text-align: center;
+    font-weight: bold;
+    margin: 9px;
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 355px;
+
+}
+
+#Introduction {
+    padding: 15px;
+}
+
+#Education {
+    padding: 17px;
+}
+
+
+#Education table tr th,
+td {
+    border: 1px solid black;
+
+}
+
+
+/* table, th, td{
+    
+} */
+
+.left p {
+    font-weight: bold;
+}
+
+#intrest {
+    padding: 15px;
+}
+
+footer {
+    background-color: wheat;
+    height: 15px;
+    text-align: center;
+    color: blue;
+}
