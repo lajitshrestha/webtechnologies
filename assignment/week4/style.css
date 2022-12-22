@@ -1,0 +1,38 @@
+h1{
+    background-color: wheat;
+    color: black;
+
+}
+h2{
+    background-color: aqua;
+    color: blue;
+}
+h3{
+    background-color: brown;
+    color: white;
+}
+h4{
+    background-color: yellow;
+    color: white;
+
+}
+h5{
+    background-color: red;
+    color: white;
+}
+h6{
+    background-color: rgb(114, 33, 33);
+    color: black;
+}
+.class1 img{
+    margin: auto;
+    padding: auto;
+    height: 445px;
+    width: 440px;
+}
+.img1 img{
+    border-radius: 50%;
+    width: auto;
+    height: 600px;
+    background-size: cover;
+}
