@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(109, 151, 115);
+
+}
+.one{
+    width: 100vw;
+    height: 45vh;
+
+}
+.one h2{
+    padding: 25px;
+    margin: 15px;
+}
+.one p{
+    padding-left: 104px;
+    margin: 45px;
+    display: block;
+}
+.two img{
+    width: 90%;
+    height: 60vh;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}

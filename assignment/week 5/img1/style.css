@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 50%;
+    background-color: rgb(12, 59, 46);
+    padding: 5%;
+    color: white;
+    height: 100vh;
+
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+
+}
+
+h2 {
+    margin-bottom: 100px;
+    font-weight: 300;
+}
+
+.box2 img{
+    background-repeat: repeat;
+    width: 752px;
+    height: 100vh;
+    
+}
+
+button {
+
+    margin-top: 20px;
+
+}
+
+.button a {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 15px;
+    border: 2px solid red;
+    border-radius: 5%;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    line-height: 1.4;
+    transition: all 0.5s ease;
+
+}
+
+.button a:hover {
+    background-color: rgb(234, 155, 9);
+    color: rgb(2, 18, 18);
+}
+@media screen (max-width: 1500px) {
+    .box2 img{
+        width: 600px;
+    }
+    
+}
